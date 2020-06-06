@@ -99,7 +99,7 @@ X_train, X_test, y_train, y_test = train_test_split( X, y, test_size=0.2, random
 print ('Train set:', X_train.shape,  y_train.shape)
 print ('Test set:', X_test.shape,  y_test.shape)
 
-k = 20
+k = 21
 #Train Model and Predict  
 neigh = KNeighborsClassifier(n_neighbors = k).fit(X_train,y_train)
 neigh
